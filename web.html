@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background"></div>
     <header>
+        <div class="background"></div>
         <p class="p1">uma seleção de produtos</p>
         <p class="p2">especial para você</p>
         <p class="p3">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
@@ -22,7 +22,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main>        
         <section class="section-1">
             <article>
                 <h2>Ajude o algorítimo a ser mais certeiro</h2>
@@ -151,23 +151,34 @@
             <button class="more-products">Ainda mais produtos aqui!</button>
         </section>
         <section class="section-3">
-            <h2>Compartilhe a novidade</h2>
-            <p>Compartilhe a novidade</p>
+            <div class="line">
+                <div class="line-1"></div>
+                <div class="title"><h2>Compartilhe a novidade</h2></div>
+                <div class="line-2"></div>
+            </div>
+            <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
             <form action="">
-                <label for="">Nome do seu amigo:</label>
-                <input type="text">
-                <label for="">E-mail:</label>
-                <input type="text">
+                <div class="input-group">
+                    <div class="input">
+                        <label for="">Nome do seu amigo:</label>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <label for="">E-mail:</label>
+                        <input type="text">
+                    </div>
+                </div>    
                 <button>Enviar agora</button>
             </form>
         </section>
     </main>
     <footer>
+        <div class="background"></div>
         <p>
             Testando suas habilidades em HTML, CSS e JS. <br>
             Linx Impulse <br> 
             2019
         </p>
-    </footer>
+    </footer>    
 </body>
 </html>
