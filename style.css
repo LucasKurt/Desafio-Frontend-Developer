@@ -95,6 +95,10 @@ main section.section-1 article h2 {
     color: #888888;
 }
 
+main section.section-1 article h2 span {
+    display: none;
+}
+
 main section.section-1 article p {
     font-size: 12px;
     line-height: 18px;
@@ -228,6 +232,7 @@ main section.section-2 div.products article p.installments {
 
 main section.section-2 div.products article button {
     margin-top: 10px;
+    width: 100%;
     height: 30px;
     background-color: #fff;
     border: 1px solid #707070;
@@ -258,7 +263,7 @@ main section.section-3 {
 main section.section-3 div.line {
     width: 100%;
     height: 40px;
-    margin: 128px 0 34px 0;
+    margin: 120px 0 34px 0;
     display: flex;
 }
 
@@ -340,6 +345,7 @@ main section.section-3 form button {
 
 footer {
     position: relative;
+    margin-top: 70px;
     height: 290px;
     display: flex;
     justify-content: center;
@@ -363,3 +369,169 @@ footer p {
     color: #fff;
 }
 
+@media(max-width: 420px) {
+    header{
+        align-items: flex-start;
+    }
+
+    header p {
+        margin-left: 16px;
+    }
+
+    header p.p1 {
+        margin-top: 66px;
+    }
+
+    header p.p3 {
+        width: 359px;
+        margin-top: 9px;
+    }
+
+    header nav {
+        align-self: center;
+    }    
+
+    header nav ul {
+        width: 345px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 46px;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+    
+    main {
+        width: 100vw;
+    }
+
+    main section.section-1 {
+        flex-direction: column;
+        padding: 30px 16px 0 16px;
+        justify-content: flex-start;
+    }
+
+    main section.section-1 article{
+        width: 386px;
+    }
+
+    main section.section-1 article h2 {
+        margin-bottom: 16px;
+    }
+
+    main section.section-1 article h2 span {
+        display: inline;
+    }
+
+    main section.section-1 article p {
+        height: 220px;
+        overflow: hidden;
+    }
+
+    main section.section-1 article p br.br {
+        display: none;
+    }
+
+    main section.section-1 form {
+        width: 385px;
+        margin-top: 30px;
+    }
+
+    main section.section-2 div.line {
+        margin: 90px 0 23px 0;
+    }
+
+    main section.section-2 div.line div.line-1 {
+        width: 102.5px;
+    }
+
+    main section.section-2 div.line div.line-2 {
+        width: 102.5px;
+    }
+
+    main section.section-2 div.products {
+        flex-direction: column;
+    }
+
+    main section.section-2 div.products article {
+        width: 403px;
+        flex-direction: row;
+    }
+
+    main section.section-2 div.products article figure {
+        width: 170px;
+        height: 130px;
+    }
+
+    main section.section-2 div.products article figure img {
+        max-width: 168px;
+        max-height: 128px;
+    }
+
+    main section.section-2 div.products article div.product-container {
+        margin-left: 23px;
+        width: 200px;
+    }
+
+    main section.section-2 div.products article p.name {
+        margin-top: 0;
+    }
+
+    main section.section-2 div.products article p.oldPrice {
+        margin-top: 13px;
+    }
+
+    main section.section-2 div.products article p.description {
+        display: none;
+    }
+
+    main section.section-3 div.line {
+        margin: 120px 0 18px 0;
+    }
+
+    main section.section-3 div.line div.line-1 {
+        width: 102.5px;
+    }
+
+    main section.section-3 div.line div.line-2 {
+        width: 102.5px;
+    }
+
+    main section.section-3 p {
+        text-align: center;
+    }
+
+    main section.section-3 form {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    main section.section-3 form div.input-group{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    main section.section-3 form div.input-group div.input input {
+        width: 391px;
+        margin-bottom: 20px;
+    }
+
+    main section.section-3 form button {
+        margin-top: 22px;
+    }
+
+    footer {               
+        height: 157px;
+        margin-top: 85px;
+    }
+
+    footer div.background {              
+        height: 157px;
+    }
+
+    footer p { 
+        margin-top: 70px
+    }
+}
