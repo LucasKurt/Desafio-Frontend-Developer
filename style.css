@@ -384,7 +384,8 @@ footer p {
     }
 
     header p.p3 {
-        width: 359px;
+        width: calc(100% - 16px);
+        max-width: 359px;
         margin-top: 9px;
     }
 
@@ -393,7 +394,8 @@ footer p {
     }    
 
     header nav ul {
-        width: 345px;
+        width: 100%;
+        max-width: 345px;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 46px;
@@ -414,7 +416,8 @@ footer p {
     }
 
     main section.section-1 article{
-        width: 386px;
+        width: 100%;
+        max-width: 386px;
     }
 
     main section.section-1 article h2 {
@@ -435,7 +438,8 @@ footer p {
     }
 
     main section.section-1 form {
-        width: 385px;
+        width: 100%;
+        max-width: 385px;
         margin-top: 30px;
     }
 
@@ -444,11 +448,13 @@ footer p {
     }
 
     main section.section-2 div.line div.line-1 {
-        width: 102.5px;
+        width: calc((100% - 215px)/2);
+        max-width: 102.5px;
     }
 
     main section.section-2 div.line div.line-2 {
-        width: 102.5px;
+        width: calc((100% - 215px)/2);
+        max-width: 102.5px;
     }
 
     main section.section-2 div.products {
@@ -456,7 +462,8 @@ footer p {
     }
 
     main section.section-2 div.products article {
-        width: 403px;
+        width: 100%;
+        max-width: 403px;
         flex-direction: row;
     }
 
@@ -492,11 +499,13 @@ footer p {
     }
 
     main section.section-3 div.line div.line-1 {
-        width: 102.5px;
+        width: calc((100% - 215px)/2);
+        max-width: 102.5px;
     }
 
     main section.section-3 div.line div.line-2 {
-        width: 102.5px;
+        width: calc((100% - 215px)/2);
+        max-width: 102.5px;
     }
 
     main section.section-3 p {
@@ -515,7 +524,8 @@ footer p {
     }
 
     main section.section-3 form div.input-group div.input input {
-        width: 391px;
+        width: 100%;
+        max-width: 391px;
         margin-bottom: 20px;
     }
 

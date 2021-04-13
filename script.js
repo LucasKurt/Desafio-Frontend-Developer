@@ -38,7 +38,6 @@ async function data() {
     
     dataOfProducts = [...dataOfProducts,...data.products]
     
-    console.log(dataOfProducts[0]);
     populateProducts(dataOfProducts)
 }
 
