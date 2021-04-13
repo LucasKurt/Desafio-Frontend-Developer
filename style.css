@@ -183,6 +183,7 @@ main section.section-2 div.line div.line-2 {
 }
 
 main section.section-2 div.products {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
