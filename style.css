@@ -422,6 +422,8 @@ footer p {
 
     main section.section-1 article h2 {
         margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
     }
 
     main section.section-1 article h2 span {

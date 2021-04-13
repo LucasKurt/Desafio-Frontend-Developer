@@ -5,7 +5,7 @@ const product = ({ id, name, image, oldPrice, price, description, installments }
     return `
         <article id="${id}">
             <figure>
-                <img id="image" src="http:${image}" alt="${name}">
+                <img id="image" src="https:${image}" alt="${name}">
             </figure>
             <div class="product-container">
                 <p class="name">${name}</p>
@@ -37,7 +37,7 @@ async function data() {
     url = `https://${data.nextPage}`
     
     dataOfProducts = [...dataOfProducts,...data.products]
-    
+
     populateProducts(dataOfProducts)
 }
 
