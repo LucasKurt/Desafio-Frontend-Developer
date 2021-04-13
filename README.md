@@ -1,6 +1,8 @@
 # Desafio-Frontend-Developer
 
-https://desafio-frontend-developer-lucas.vercel.app/
+[pagina web](https://desafio-frontend-developer-lucas.vercel.app)
+
+[e-mail](https://desafio-frontend-developer-lucas-email.vercel.app)
 
 ## Sobre o Projeto
 
